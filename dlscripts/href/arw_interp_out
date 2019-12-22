@@ -225,4 +225,101 @@
 7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 24-25 hrs (min):from 201912221200
 26
 1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-26 hrs (accum):from 201912221200
-2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-26 hrs (accum):from 201912221200
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 25-26 hrs (accum):from 201912221200
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 25-26 hrs (accum):from 201912221200
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 26 hrs:from 201912221200
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 26 hrs:from 201912221200
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 25-26 hrs (min):from 201912221200
+27
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-27 hrs (accum):from 201912221200
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-27 hrs (accum):from 201912221200
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 26-27 hrs (accum):from 201912221200
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 26-27 hrs (accum):from 201912221200
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 27 hrs:from 201912221200
+6:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 26-27 hrs (min):from 201912221200
+7:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 24-27 hrs (accum):from 201912221200
+8:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 27 hrs:from 201912221200
+9:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 24-27 hrs (min):from 201912221200
+28
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-28 hrs (accum):from 201912221200
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-28 hrs (accum):from 201912221200
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 27-28 hrs (accum):from 201912221200
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 27-28 hrs (accum):from 201912221200
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 28 hrs:from 201912221200
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 28 hrs:from 201912221200
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 27-28 hrs (min):from 201912221200
+29
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-29 hrs (accum):from 201912221200
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-29 hrs (accum):from 201912221200
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 28-29 hrs (accum):from 201912221200
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 28-29 hrs (accum):from 201912221200
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 29 hrs:from 201912221200
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 29 hrs:from 201912221200
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 28-29 hrs (min):from 201912221200
+30
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-30 hrs (accum):from 201912221200
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-30 hrs (accum):from 201912221200
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 29-30 hrs (accum):from 201912221200
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 29-30 hrs (accum):from 201912221200
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 30 hrs:from 201912221200
+6:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 29-30 hrs (min):from 201912221200
+7:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 27-30 hrs (accum):from 201912221200
+8:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 24-30 hrs (accum):from 201912221200
+9:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 30 hrs:from 201912221200
+10:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 27-30 hrs (min):from 201912221200
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c3-4>
+Subject: Job 74323: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /gpfs_backup/stormtrack/jtradfor/aliases.csh  ; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp.py $datestr> in cluster <henry2> Done
+
+Job <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /gpfs_backup/stormtrack/jtradfor/aliases.csh  ; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp.py $datestr> was submitted from host <vclhpc2> by user <jtradfor> in cluster <henry2> at Sun Dec 22 10:20:08 2019
+Job was executed on host(s) <4*n2c3-4>, in queue <mea716>, as user <jtradfor> in cluster <henry2> at Sun Dec 22 10:20:14 2019
+</home/jtradfor> was used as the home directory.
+</gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io> was used as the working directory.
+Started at Sun Dec 22 10:20:14 2019
+Terminated at Sun Dec 22 10:52:52 2019
+Results reported at Sun Dec 22 10:52:52 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_out
+#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_err
+#BSUB -n 4
+#BSUB -q mea716
+#BSUB -R span[ptile=4]
+#BSUB -W 12:15
+
+source /gpfs_backup/stormtrack/jtradfor/aliases.csh  
+
+set datestr="193561200"
+python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp.py $datestr
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1627.55 sec.
+    Max Memory :                                 6640.91 MB
+    Average Memory :                             3912.31 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1958 sec.
+    Turnaround time :                            1964 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp_err> for stderr output of this job.
+
