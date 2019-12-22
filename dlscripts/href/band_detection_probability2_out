@@ -1,0 +1,80 @@
+1
+('hit', 277.424567912663, 69.12286864472331)
+3
+5
+('hit', 382.04273487587415, 57.24441138919489)
+7
+9
+11
+13
+15
+17
+19
+('hit', 342.6475716259206, 80.71078177218506)
+21
+23
+25
+('hit', 256.9665348482786, 55.85559285088082)
+27
+('hit', 449.0270190031976, 110.1967937524545)
+29
+('hit', 260.54594408692697, 83.29111980191995)
+('hit', 357.2388298512571, 91.5369469726386)
+('hit', 286.2923246387391, 83.61921408548035)
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n3g3-11>
+Subject: Job 74367: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_err;#BSUB -n 4 ;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2.py $datestr> in cluster <henry2> Done
+
+Job <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_err;#BSUB -n 4 ;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2.py $datestr> was submitted from host <vclhpc2> by user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:27 2019
+Job was executed on host(s) <4*n3g3-11>, in queue <mea716>, as user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:30 2019
+</home/jtradfor> was used as the home directory.
+</gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io> was used as the working directory.
+Started at Sun Dec 22 11:30:30 2019
+Terminated at Sun Dec 22 12:23:17 2019
+Results reported at Sun Dec 22 12:23:17 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_out
+#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_err
+#BSUB -n 4 
+#BSUB -q mea716
+#BSUB -R span[ptile=4]
+#BSUB -W 12:15
+
+source /usr/local/apps/mpich3/centos7/intelmpi2016.csh
+
+unsetenv MPICH_NO_LOCAL
+
+set datestr="193561200"
+python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2.py $datestr
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   474.80 sec.
+    Max Memory :                                 10954.76 MB
+    Average Memory :                             6222.88 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   17592186044416 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   3166 sec.
+    Turnaround time :                            3170 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_probability2_err> for stderr output of this job.
+
