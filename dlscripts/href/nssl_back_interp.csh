@@ -6,5 +6,5 @@
 
 source /gpfs_backup/stormtrack/jtradfor/aliases.csh  
 
-set datestr="193552000"
+set datestr="193561200"
 python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/namnest_interp.py $datestr

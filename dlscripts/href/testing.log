@@ -15181,3 +15181,1317 @@ curl -f -v -s -r "18923020-19391514,24277936-27107912,53791015-54697327,57502539
 < Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 < 
 { [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2613744-3291869,7526975-9012593,32418478-34572244,685061752-686690415,687546923-688327721,731701946-733855728,1057325567-1057952086,1059089484-1060052445" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf28.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_namnest.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf28.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2613744-3291869,7526975-9012593,32418478-34572244,685061752-686690415,687546923-688327721,731701946-733855728,1057325567-1057952086,1059089484-1060052445
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:30 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:06:02 GMT
+< ETag: "47265e1-3f3e1e4a-59a4b6941d18f"
+< Accept-Ranges: bytes
+< Content-Length: 10471202
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:30 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6c6776bb12d
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7412 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2627746-3341481,7621497-9139390,32929726-35112193,691745974-693406537,694260865-695083132,738374053-740538006,1066514656-1067154314,1068311334-1069281094" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf40.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_namnest_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf40.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2627746-3341481,7621497-9139390,32929726-35112193,691745974-693406537,694260865-695083132,738374053-740538006,1066514656-1067154314,1068311334-1069281094
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:37 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:17:38 GMT
+< ETag: "4687a5e-3fcb0746-59a4183d237eb"
+< Accept-Ranges: bytes
+< Content-Length: 10671257
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:37 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6ccde21c65
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-635269,2890525-3848304,29793007-30072271,45786955-46510842,47316171-48597329,61304714-62551360,62992273-63440658" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf28.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_hrrr.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf28.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-635269,2890525-3848304,29793007-30072271,45786955-46510842,47316171-48597329,61304714-62551360,62992273-63440658
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:43 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 13:35:10 GMT
+< ETag: "4dfd5594-8556afb-59a4afad6ef80"
+< Accept-Ranges: bytes
+< Content-Length: 5573205
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:43 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6d2dbf587e
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-635270,2923379-3850198,29879452-30150982,46293884-47022025,47832461-49117749,61815403-63125013,63581516-64220732" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf34.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_hrrr_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf34.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-635270,2923379-3850198,29879452-30150982,46293884-47022025,47832461-49117749,61815403-63125013,63581516-64220732
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:46 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 07:46:02 GMT
+< ETag: "4dfdd1f9-85f6ac7-59a461a3dded5"
+< Accept-Ranges: bytes
+< Content-Length: 5796699
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:46 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6d6355c71a3
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "19226767-20552724,24920422-26185896,53014305-53964858,56359646-57841134" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f29.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_arw.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f29.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=19226767-20552724,24920422-26185896,53014305-53964858,56359646-57841134
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:51 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:37:12 GMT
+< ETag: "488b418-3dfada4-59a4bd8afebb2"
+< Accept-Ranges: bytes
+< Content-Length: 5023951
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:51 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6da64efe35
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "19363585-20893117,25356565-26664762,54544800-55500943,57939916-59427894" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.arw_2p5km.f41.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_arw_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.arw_2p5km.f41.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=19363585-20893117,25356565-26664762,54544800-55500943,57939916-59427894
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:54 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:56:54 GMT
+< ETag: "4873d33-3f93d94-59a42103f731b"
+< Accept-Ranges: bytes
+< Content-Length: 5282334
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:54 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6dd94e4f11a
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "18741643-19371844,24255455-27137882,53742701-54705826,57537721-59011730" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f29.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_nmmb.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f29.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=18741643-19371844,24255455-27137882,53742701-54705826,57537721-59011730
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:18:58 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:27:12 GMT
+< ETag: "485da19-3e6ae84-59a4bb4edfa5f"
+< Accept-Ranges: bytes
+< Content-Length: 5950241
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:18:58 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6e134ed7c6
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "18844714-19470237,24347915-27194180,53753090-54668233,57474401-58958755" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.nmmb_2p5km.f41.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_nmmb_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.nmmb_2p5km.f41.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=18844714-19470237,24347915-27194180,53753090-54668233,57474401-58958755
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:02 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:42:47 GMT
+< ETag: "4854035-3e5ac25-59a41ddc5d5e2"
+< Accept-Ranges: bytes
+< Content-Length: 5871764
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:02 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6e4d70a294
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2594527-3267386,7429639-8849543,32395024-34502016,682977512-684578409,685423251-686212216,729547423-731687264,1056486493-1057112871,1058249855-1059331988" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf29.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_namnest.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf29.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2594527-3267386,7429639-8849543,32395024-34502016,682977512-684578409,685423251-686212216,729547423-731687264,1056486493-1057112871,1058249855-1059331988
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:06 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:06:36 GMT
+< ETag: "46cd4e7-3f3309cc-59a4b6b416015"
+< Accept-Ranges: bytes
+< Content-Length: 10438930
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:06 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6e865de29b
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2601705-3301686,7498665-8947639,32614356-34732632,689351851-690998433,691849473-692664328,735922662-738071805,1063910724-1064550163,1065706570-1066798314" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf41.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_namnest_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf41.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2601705-3301686,7498665-8947639,32614356-34732632,689351851-690998433,691849473-692664328,735922662-738071805,1063910724-1064550163,1065706570-1066798314
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:12 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:18:30 GMT
+< ETag: "47568ec-3fa50f0d-59a4186ea203e"
+< Accept-Ranges: bytes
+< Content-Length: 10609955
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:12 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6eec0a5134
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-630949,2850578-3799103,29636105-29914158,45617888-46337974,47137472-48400851,60821172-62087550,62540084-63130705" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf29.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_hrrr.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf29.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-630949,2850578-3799103,29636105-29914158,45617888-46337974,47137472-48400851,60821172-62087550,62540084-63130705
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:18 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 13:36:42 GMT
+< ETag: "4dfdc474-8649a60-59a4b0055f133"
+< Accept-Ranges: bytes
+< Content-Length: 5698816
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:18 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6f461dbd13b
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-632407,2925158-3847017,29807899-30079384,45185247-45909161,46712125-47975128,60356033-61680481,62146288-62703190" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf35.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_hrrr_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf35.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-632407,2925158-3847017,29807899-30079384,45185247-45909161,46712125-47975128,60356033-61680481,62146288-62703190
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:22 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 07:47:39 GMT
+< ETag: "4dfcdc08-854ff61-59a46200f9c35"
+< Accept-Ranges: bytes
+< Content-Length: 5694835
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:22 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6f7d632021
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "9678054-11029385,15345051-15819381,17579386-18525001,41715072-43159723,64266576-64369349,64776036-64925931,66394441-67066495,77589397-78324841" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f30.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_arw.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f30.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=9678054-11029385,15345051-15819381,17579386-18525001,41715072-43159723,64266576-64369349,64776036-64925931,66394441-67066495,77589397-78324841
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:25 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:38:14 GMT
+< ETag: "487f49f-4fc316b-59a4bdc6e110f"
+< Accept-Ranges: bytes
+< Content-Length: 5877027
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:25 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6fb36f0b62
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "9782568-11331024,15734917-16225425,18059416-19008022,43136465-44585787,66363496-66477319,67403017-67563632,69097787-69796796,80410231-81155011" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.arw_2p5km.f42.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_arw_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.arw_2p5km.f42.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=9782568-11331024,15734917-16225425,18059416-19008022,43136465-44585787,66363496-66477319,67403017-67563632,69097787-69796796,80410231-81155011
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:30 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:57:59 GMT
+< ETag: "4873d36-5277a5c-59a421420edc7"
+< Accept-Ranges: bytes
+< Content-Length: 6156053
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:30 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c6ff4390092
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "9569582-10295728,15160655-15761352,17658562-18609209,42670524-44120982,64938978-65266348,65683154-65851692,67479612-69412526,80572951-81288608" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f30.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_nmmb.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f30.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=9569582-10295728,15160655-15761352,17658562-18609209,42670524-44120982,64938978-65266348,65683154-65851692,67479612-69412526,80572951-81288608
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:33 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:28:01 GMT
+< ETag: "48e1873-52e3ba9-59a4bb7d5eec4"
+< Accept-Ranges: bytes
+< Content-Length: 6873361
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:33 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c7030006da5
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "9621169-10345893,15208781-15798436,17717753-18625062,42482196-43940370,64843389-64938631,65902584-66076290,67755377-69665143,80963776-81677058" https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.nmmb_2p5km.f42.conus.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_nmmb_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t00z.nmmb_2p5km.f42.conus.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=9621169-10345893,15208781-15798436,17717753-18625062,42482196-43940370,64843389-64938631,65902584-66076290,67755377-69665143,80963776-81677058
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:38 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:43:38 GMT
+< ETag: "485403c-5345e4f-59a41e0c61d30"
+< Accept-Ranges: bytes
+< Content-Length: 6572792
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:38 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c7070606f26
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7415 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2582150-3243369,7343309-8710654,31920672-33997936,687172635-688759932,689595606-690378443,733728519-735862223,1060774236-1061400543,1062536942-1063694079" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf30.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_namnest.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t12z.conusnest.hiresf30.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2582150-3243369,7343309-8710654,31920672-33997936,687172635-688759932,689595606-690378443,733728519-735862223,1060774236-1061400543,1062536942-1063694079
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:42 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 14:07:32 GMT
+< ETag: "4663fec-3f758891-59a4b6e984480"
+< Accept-Ranges: bytes
+< Content-Length: 10394071
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:42 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c70af6337ff
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7413 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "2588177-3284345,7404859-8793223,32347541-34426225,686355694-687986746,688833811-689640363,732920787-735062048,1061321132-1061960216,1063115907-1064282136" https://www.ftp.ncep.noaa.gov/data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf42.tm00.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_namnest_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/nam/prod/nam.20191222/nam.t00z.conusnest.hiresf42.tm00.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=2588177-3284345,7404859-8793223,32347541-34426225,686355694-687986746,688833811-689640363,732920787-735062048,1061321132-1061960216,1063115907-1064282136
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:48 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 02:19:14 GMT
+< ETag: "47568f6-3f7ea4cc-59a41898f0cab"
+< Accept-Ranges: bytes
+< Content-Length: 10548364
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:48 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c7109f804127
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7412 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-622581,2846840-3784748,29580432-29862601,45546830-46259814,47049155-48307451,60497371-61780740,62243559-62698962" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf30.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_hrrr.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf30.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-622581,2846840-3784748,29580432-29862601,45546830-46259814,47049155-48307451,60497371-61780740,62243559-62698962
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:54 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 13:38:21 GMT
+< ETag: "4dfdc47d-848bb9a-59a4b06407a8d"
+< Accept-Ranges: bytes
+< Content-Length: 5553527
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:54 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c716917c9b8
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+curl -f -v -s -r "0-627377,2901258-3817979,29715870-29987685,44618821-45335196,46127315-47384933,59524540-60861778,61336645-61882378" https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf36.grib2 -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_hrrr_back.grib2.tmp*   Trying 140.172.138.66:443...
+* TCP_NODELAY set
+* Connected to www.ftp.ncep.noaa.gov (140.172.138.66) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /gpfs_backup/stormtrack/jtradfor/miniconda2/ssl/cacert.pem
+  CApath: none
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [97 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4039 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=qa.ncep.noaa.gov
+*  start date: Feb  4 20:45:44 2019 GMT
+*  expire date: Jan 27 15:30:01 2020 GMT
+*  subjectAltName: host "www.ftp.ncep.noaa.gov" matched cert's "www.ftp.ncep.noaa.gov"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+} [5 bytes data]
+> GET /data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf36.grib2 HTTP/1.1
+> Host: www.ftp.ncep.noaa.gov
+> Range: bytes=0-627377,2901258-3817979,29715870-29987685,44618821-45335196,46127315-47384933,59524540-60861778,61336645-61882378
+> User-Agent: curl/7.65.3
+> Accept: */*
+> 
+{ [5 bytes data]
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 206 Partial Content
+< Date: Sun, 22 Dec 2019 15:19:57 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Last-Modified: Sun, 22 Dec 2019 07:49:27 GMT
+< ETag: "4dfde477-852d527-59a4626805c87"
+< Accept-Ranges: bytes
+< Content-Length: 5673694
+< Cache-Control: max-age=14400
+< Expires: Sun, 22 Dec 2019 19:19:57 GMT
+< Connection: close
+< Content-Type: multipart/byteranges; boundary=59a4c719eff1c66
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< 
+{ [7414 bytes data]
+* Closing connection 0
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+Already up-to-date.
+Everything up-to-date
+Job <74321> is submitted to queue <mea716>.
+Job <74322> is submitted to queue <mea716>.
+Job <74323> is submitted to queue <mea716>.
+Job <74324> is submitted to queue <mea716>.
+Job <74325> is submitted to queue <mea716>.
+Job <74326> is submitted to queue <mea716>.
+Job <74327> is submitted to queue <mea716>.
+Job <74328> is submitted to queue <mea716>.
