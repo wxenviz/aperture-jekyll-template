@@ -16495,3 +16495,48 @@ Job <74325> is submitted to queue <mea716>.
 Job <74326> is submitted to queue <mea716>.
 Job <74327> is submitted to queue <mea716>.
 Job <74328> is submitted to queue <mea716>.
+/usr/bin/mv: cannot stat ‘/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/uploads/outimages/href/*.png’: No such file or directory
+Job <74342> is submitted to queue <mea716>.
+Job <74343> is submitted to queue <mea716>.
+Job <74344> is submitted to queue <mea716>.
+Job <74345> is submitted to queue <mea716>.
+Job <74346> is submitted to queue <mea716>.
+Job <74347> is submitted to queue <mea716>.
+Job <74348> is submitted to queue <mea716>.
+Job <74349> is submitted to queue <mea716>.
+Job <74350> is submitted to queue <mea716>.
+Job <74351> is submitted to queue <mea716>.
+Job <74352> is submitted to queue <mea716>.
+Job <74353> is submitted to queue <mea716>.
+Job <74354> is submitted to queue <mea716>.
+Job <74355> is submitted to queue <mea716>.
+Job <74356> is submitted to queue <mea716>.
+Job <74357> is submitted to queue <mea716>.
+Job <74358> is submitted to queue <mea716>.
+Job <74359> is submitted to queue <mea716>.
+Job <74360> is submitted to queue <mea716>.
+Job <74361> is submitted to queue <mea716>.
+Job <74362> is submitted to queue <mea716>.
+Job <74363> is submitted to queue <mea716>.
+Job <74364> is submitted to queue <mea716>.
+Job <74365> is submitted to queue <mea716>.
+Job <74366> is submitted to queue <mea716>.
+Job <74367> is submitted to queue <mea716>.
+/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f27.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f27.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002700_arw.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f27.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f27.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002700_nmmb.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf33.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf27.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f28.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f28.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_arw.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f28.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f28.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002800_nmmb.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf34.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf28.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f29.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f29.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_arw.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f29.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f29.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612002900_nmmb.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf35.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf29.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f30.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.arw_2p5km.f30.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_arw.grib2
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f30.conus.grib2.idx | egrep ':(APCP|REFD|REFC|WEASD|TMIN):' | /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl https://www.ftp.ncep.noaa.gov/data/nccf/com/hiresw/prod/hiresw.20191222/hiresw.t12z.nmmb_2p5km.f30.conus.grib2 /gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/1935612003000_nmmb.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t06z.wrfsfcf36.grib2
+https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf30.grib2
+2019-12-22 10:20:09.287574
+2019-12-22 11:30:09.388233
