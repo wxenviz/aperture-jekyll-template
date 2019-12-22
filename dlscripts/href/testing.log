@@ -1,0 +1,2 @@
+/usr/bin/rm: cannot remove ‘/gpfs_backup/stormtrack/jtradfor/ensemble_data/rawdata/href/*.npy’: No such file or directory
+Initialized empty Git repository in /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/.git/

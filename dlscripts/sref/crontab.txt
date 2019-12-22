@@ -1,0 +1,1 @@
+30 0,6,12,18 * * * /usr/bin/csh /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/sref/run_all.csh

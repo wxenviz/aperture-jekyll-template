@@ -1,0 +1,49 @@
+---
+title: Radar
+---
+
+<script>
+var datei = "191421200";
+var fhourglobal = "00";
+var datestr = "";
+var datestrUTC = "";
+const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const daysOfWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    
+function setdate() {
+  var year = "20" + datei.substr(0,2);
+  console.log(year);
+  var doy = datei.substr(2,3);
+  var hour = datei.substr(5,2);
+  var minute = datei.substr(7,2);
+  var yearobj = new Date(year,0,1);
+  var yeardayobj = new Date(yearobj.setUTCDate(doy));
+  var yeardayhrobj = new Date(yeardayobj.setUTCHours(parseInt(hour)));
+  var yeardayhrminobj = new Date(yeardayhrobj.setUTCMinutes(parseInt(minute)));
+  dowstr = daysOfWeek[yeardayhrminobj.getDay()];
+  monthstr = monthNames[yeardayhrminobj.getMonth()];
+  daystr = ("00" + (yeardayhrminobj.getDate()).toString()).substr(-2,2);
+  hour = yeardayhrminobj.getHours();
+  minute = yeardayhrminobj.getMinutes();
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  hour = hour % 12;
+  hour = hour ? hour : 12;
+  hrstr = ("00" + hour).substr(-2,2)  + ":" + ("00" + minute).substr(-2,2) + " " + ampm;
+  yrstr = yeardayhrobj.getYear() + 1900;
+  datestr =  dowstr + " " + monthstr + " " + daystr + " " + hrstr + " " + yrstr + " Local Time";
+  document.getElementById("radarTime").innerHTML = datestr;
+}
+    
+function datereplace(datei,fhourglobal) {
+    document.getElementById("currentRadar").src = "/uploads/outimages/radar_" + datei;
+    document.getElementById("radarLink").href = "/uploads/outimages/radar_" + datei;
+}
+</script>
+
+<div class="radarcontainer">
+    <a id="radarLink" href=""><img class="radarimg" id="currentRadar" src="" alt="Current Radar"/></a>
+    <div class="centered" id="radarTime"></div>
+</div>
+
+<script>datereplace(datei,fhourglobal);</script>
+<script>setdate();</script>
