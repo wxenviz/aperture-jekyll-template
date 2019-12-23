@@ -4,3 +4,9 @@
   hweasds_sd[hweasds_sd>2] = 2.0
 /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hweasd_ab.py:74: RuntimeWarning: invalid value encountered in less_equal
   hweasds_sd[hweasds_sd<=.02] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hweasd_ab.py:72: RuntimeWarning: invalid value encountered in greater
+  hweasds_sd[hweasds_sd>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hweasd_ab.py:73: RuntimeWarning: invalid value encountered in greater
+  hweasds_sd[hweasds_sd>2] = 2.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hweasd_ab.py:74: RuntimeWarning: invalid value encountered in less_equal
+  hweasds_sd[hweasds_sd<=.02] = np.nan

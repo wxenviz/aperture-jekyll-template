@@ -4,3 +4,9 @@
   aweasds_mean[aweasds_mean>1000000] = np.nan
 /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/aweasd_mean.py:57: RuntimeWarning: invalid value encountered in greater
   aweasds_mean[aweasds_mean>24] = 24.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/aweasd_mean.py:55: RuntimeWarning: invalid value encountered in less
+  aweasds_mean[aweasds_mean<0.25] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/aweasd_mean.py:56: RuntimeWarning: invalid value encountered in greater
+  aweasds_mean[aweasds_mean>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/aweasd_mean.py:57: RuntimeWarning: invalid value encountered in greater
+  aweasds_mean[aweasds_mean>24] = 24.0

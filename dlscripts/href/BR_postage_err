@@ -6,3 +6,11 @@
   reflectivities[i][reflectivities[i]>60] = 60.0
 /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_postage.py:70: RuntimeWarning: invalid value encountered in less_equal
   reflectivities[i][reflectivities[i]<=0] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_postage.py:51: RuntimeWarning: invalid value encountered in less_equal
+  bref[bref<=0] = 0.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_postage.py:68: RuntimeWarning: invalid value encountered in greater
+  reflectivities[i][reflectivities[i]>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_postage.py:69: RuntimeWarning: invalid value encountered in greater
+  reflectivities[i][reflectivities[i]>60] = 60.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_postage.py:70: RuntimeWarning: invalid value encountered in less_equal
+  reflectivities[i][reflectivities[i]<=0] = np.nan

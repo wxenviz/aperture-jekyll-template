@@ -6,3 +6,11 @@
   reflect_member[reflect_member<20] = 0
 /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_pbab.py:73: RuntimeWarning: invalid value encountered in greater_equal
   reflect_member[reflect_member>=20] = c+1
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_pbab.py:61: RuntimeWarning: invalid value encountered in less
+  temp_cref[temp_cref<0] = 0.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_pbab.py:64: RuntimeWarning: invalid value encountered in greater
+  temp_cref[temp_cref>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_pbab.py:72: RuntimeWarning: invalid value encountered in less
+  reflect_member[reflect_member<20] = 0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_pbab.py:73: RuntimeWarning: invalid value encountered in greater_equal
+  reflect_member[reflect_member>=20] = c+1

@@ -10,5 +10,5 @@ source /usr/local/apps/mpich3/centos7/intelmpi2016.csh
 
 unsetenv MPICH_NO_LOCAL
 
-set datestr="193561200"
+set datestr="193570000"
 python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/apcp_mean.py $datestr

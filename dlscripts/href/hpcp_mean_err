@@ -4,3 +4,9 @@
   hpcps_mean[hpcps_mean>1000000] = np.nan
 /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hpcp_mean.py:58: RuntimeWarning: invalid value encountered in greater
   hpcps_mean[hpcps_mean>1] = 1.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hpcp_mean.py:56: RuntimeWarning: invalid value encountered in less
+  hpcps_mean[hpcps_mean<0.01] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hpcp_mean.py:57: RuntimeWarning: invalid value encountered in greater
+  hpcps_mean[hpcps_mean>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hpcp_mean.py:58: RuntimeWarning: invalid value encountered in greater
+  hpcps_mean[hpcps_mean>1] = 1.0
