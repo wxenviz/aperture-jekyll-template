@@ -1,0 +1,8 @@
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_mean.py:59: RuntimeWarning: invalid value encountered in less_equal
+  bref[bref<=0] = 0.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_mean.py:66: RuntimeWarning: invalid value encountered in greater
+  reflect_mean[reflect_mean>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_mean.py:67: RuntimeWarning: invalid value encountered in greater
+  reflect_mean[reflect_mean>60.0] = 60.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/BR_mean.py:68: RuntimeWarning: invalid value encountered in less_equal
+  reflect_mean[reflect_mean<=0] = np.nan

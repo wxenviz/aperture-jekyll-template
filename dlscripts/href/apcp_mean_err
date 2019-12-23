@@ -1,0 +1,6 @@
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/apcp_mean.py:55: RuntimeWarning: invalid value encountered in less
+  apcps_mean[apcps_mean<0.10] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/apcp_mean.py:56: RuntimeWarning: invalid value encountered in greater
+  apcps_mean[apcps_mean>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/apcp_mean.py:57: RuntimeWarning: invalid value encountered in greater
+  apcps_mean[apcps_mean>10] = 10.0

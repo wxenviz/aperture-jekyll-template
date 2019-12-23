@@ -1,0 +1,26 @@
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:71: RuntimeWarning: invalid value encountered in less_equal
+  bref[bref<=0] = 0.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:95: RuntimeWarning: invalid value encountered in greater
+  reflect_mean[reflect_mean>1000000] = np.nan
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:96: RuntimeWarning: invalid value encountered in greater
+  reflect_mean[reflect_mean>60.0] = 60.0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:97: RuntimeWarning: invalid value encountered in less_equal
+  reflect_mean[reflect_mean<=0] = np.nan
+/gpfs_backup/stormtrack/jtradfor/miniconda2/lib/python2.7/site-packages/matplotlib/contour.py:1540: UserWarning: Warning: converting a masked element to nan.
+  self.zmax = float(z.max())
+/gpfs_backup/stormtrack/jtradfor/miniconda2/lib/python2.7/site-packages/matplotlib/contour.py:1541: UserWarning: Warning: converting a masked element to nan.
+  self.zmin = float(z.min())
+/gpfs_backup/stormtrack/jtradfor/miniconda2/lib/python2.7/site-packages/matplotlib/contour.py:1004: UserWarning: The following kwargs were not used by contour: 'aspect', 'interpolation'
+  s)
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:105: RuntimeWarning: invalid value encountered in less_equal
+  temp[temp<=273.15] = 1
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:106: RuntimeWarning: invalid value encountered in greater
+  temp[temp>273.15] = 0
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:112: RuntimeWarning: invalid value encountered in greater
+  reflectivity_contour[reflectivity_contour>5] = 255
+/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py:113: RuntimeWarning: invalid value encountered in less
+  reflectivity_contour[reflectivity_contour<5] = 0
+/gpfs_backup/stormtrack/jtradfor/miniconda2/lib/python2.7/site-packages/matplotlib/contour.py:1230: UserWarning: No contour levels were found within the data range.
+  warnings.warn("No contour levels were found"
+/gpfs_backup/stormtrack/jtradfor/miniconda2/lib/python2.7/site-packages/matplotlib/contour.py:1004: UserWarning: The following kwargs were not used by contour: 'label'
+  s)

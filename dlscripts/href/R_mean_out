@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2j6-5>
+Subject: Job 74354: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean.py $datestr> in cluster <henry2> Done
+
+Job <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean.py $datestr> was submitted from host <vclhpc2> by user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:25 2019
+Job was executed on host(s) <4*n2j6-5>, in queue <mea716>, as user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:30 2019
+</home/jtradfor> was used as the home directory.
+</gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io> was used as the working directory.
+Started at Sun Dec 22 11:30:30 2019
+Terminated at Sun Dec 22 12:26:11 2019
+Results reported at Sun Dec 22 12:26:11 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_out
+#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_err
+#BSUB -n 4
+#BSUB -q mea716
+#BSUB -R span[ptile=4]
+#BSUB -W 12:15
+
+source /usr/local/apps/mpich3/centos7/intelmpi2016.csh
+
+unsetenv MPICH_NO_LOCAL
+
+set datestr="193561200"
+python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean.py $datestr
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   529.73 sec.
+    Max Memory :                                 5813.02 MB
+    Average Memory :                             3205.37 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   128 KB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   3341 sec.
+    Turnaround time :                            3346 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/R_mean_err> for stderr output of this job.
+

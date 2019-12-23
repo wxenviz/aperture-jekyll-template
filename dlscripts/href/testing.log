@@ -16540,6 +16540,7 @@ https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t
 https://www.ftp.ncep.noaa.gov/data/nccf/com/hrrr/prod/hrrr.20191222/conus/hrrr.t12z.wrfsfcf30.grib2
 2019-12-22 10:20:09.287574
 2019-12-22 11:30:09.388233
+<<<<<<< HEAD
 Initialized empty Git repository in /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/.git/
 fatal: unable to stat 'uploads/outimages/radar/radar_193570245.png': No such file or directory
 usage: git rm [options] [--] <file>...
@@ -33875,3 +33876,5 @@ Job <76539> is submitted to queue <mea716>.
 Job <76540> is submitted to queue <mea716>.
 Job <76541> is submitted to queue <mea716>.
 Job <76542> is submitted to queue <mea716>.
+=======
+>>>>>>> ed7c10900abed222533e501c7f20e345aa9f0518

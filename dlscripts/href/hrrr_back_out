@@ -31,6 +31,7 @@
 30
 
 ------------------------------------------------------------
+<<<<<<< HEAD
 Sender: LSF System <lsfadmin@n2j6-5>
 Subject: Job 76542: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /gpfs_backup/stormtrack/jtradfor/aliases.csh  ; set datestr="193570000";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_interp.py $datestr> in cluster <henry2> Done
 
@@ -41,6 +42,18 @@ Job was executed on host(s) <4*n2j6-5>, in queue <mea716>, as user <jtradfor> in
 Started at Sun Dec 22 22:31:32 2019
 Terminated at Sun Dec 22 22:50:23 2019
 Results reported at Sun Dec 22 22:50:23 2019
+=======
+Sender: LSF System <lsfadmin@n2c3-8>
+Subject: Job 74328: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /gpfs_backup/stormtrack/jtradfor/aliases.csh  ; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_interp.py $datestr> in cluster <henry2> Done
+
+Job <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /gpfs_backup/stormtrack/jtradfor/aliases.csh  ; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_interp.py $datestr> was submitted from host <vclhpc2> by user <jtradfor> in cluster <henry2> at Sun Dec 22 10:20:09 2019
+Job was executed on host(s) <4*n2c3-8>, in queue <mea716>, as user <jtradfor> in cluster <henry2> at Sun Dec 22 10:20:14 2019
+</home/jtradfor> was used as the home directory.
+</gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io> was used as the working directory.
+Started at Sun Dec 22 10:20:14 2019
+Terminated at Sun Dec 22 10:39:42 2019
+Results reported at Sun Dec 22 10:39:42 2019
+>>>>>>> ed7c10900abed222533e501c7f20e345aa9f0518
 
 Your job looked like:
 
@@ -56,7 +69,11 @@ Your job looked like:
 
 source /gpfs_backup/stormtrack/jtradfor/aliases.csh  
 
+<<<<<<< HEAD
 set datestr="193570000"
+=======
+set datestr="193561200"
+>>>>>>> ed7c10900abed222533e501c7f20e345aa9f0518
 python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/hrrr_back_interp.py $datestr
 
 ------------------------------------------------------------
@@ -65,16 +82,27 @@ Successfully completed.
 
 Resource usage summary:
 
+<<<<<<< HEAD
     CPU time :                                   1072.89 sec.
     Max Memory :                                 6231.83 MB
     Average Memory :                             3527.67 MB
+=======
+    CPU time :                                   1112.38 sec.
+    Max Memory :                                 6226.34 MB
+    Average Memory :                             3539.12 MB
+>>>>>>> ed7c10900abed222533e501c7f20e345aa9f0518
     Total Requested Memory :                     -
     Delta Memory :                               -
     Max Swap :                                   -
     Max Processes :                              4
     Max Threads :                                5
+<<<<<<< HEAD
     Run time :                                   1131 sec.
     Turnaround time :                            1135 sec.
+=======
+    Run time :                                   1167 sec.
+    Turnaround time :                            1173 sec.
+>>>>>>> ed7c10900abed222533e501c7f20e345aa9f0518
 
 The output (if any) is above this job summary.
 

@@ -1,0 +1,153 @@
+0
+0:05:59.482830
+1
+0.525751547013
+(3941.97603749088, 10082.012485081234, 19176.381966646128)
+0:06:50.228724
+2
+0.58967746305
+(3910.612401687191, 11014.509376683163, 18678.87119122161)
+0.551438390348
+(5717.773835092317, 15773.883657022676, 28604.979147451497)
+0:06:41.926453
+3
+0:06:31.517105
+4
+0.407885064773
+(5906.075529738329, 12046.312430525906, 29533.595296600957)
+0.592286047975
+(4579.712808150827, 13520.49771969992, 22827.648508565446)
+0:07:09.820720
+5
+0.48949818167
+(4226.777703119384, 10705.232954631663, 21869.811483487654)
+0:07:11.241771
+6
+0:05:44.821507
+7
+0:06:19.029524
+8
+0:05:05.362544
+9
+0:04:01.880428
+10
+0:04:03.963592
+11
+0:03:37.289631
+12
+0:03:52.968336
+13
+0:03:26.913543
+14
+0:03:26.183164
+15
+0:03:18.065642
+16
+0:03:07.521511
+17
+0:02:51.662633
+18
+0:02:53.342026
+19
+0.310129887355
+(5970.079232906923, 8576.751627956664, 27655.353378268825)
+0:02:50.232871
+20
+0:02:58.036016
+21
+0:03:06.098724
+22
+0:02:56.648961
+23
+0:02:47.555360
+24
+0:02:47.919959
+25
+0.554438203026
+(3088.7121245473973, 7957.861589310369, 14353.018146787128)
+0:02:46.520954
+26
+0.509125075516
+(4411.489647654933, 10713.014849590758, 21042.00984155975)
+0.540389079663
+(3704.738077327289, 9055.749359509282, 16757.831903549573)
+0:02:39.949129
+27
+0.449453560986
+(10627.349329534918, 22239.563477620868, 49481.33780237483)
+0:02:37.058108
+28
+0.53020909666
+(7617.749347276404, 18512.590300712498, 34915.6406733469)
+0.33488044133
+(11059.170805238478, 16620.372455070592, 49630.76490544255)
+0:02:35.361271
+29
+0.350311015964
+(4718.664057564049, 7602.156613273964, 21701.16344284857)
+0.461327638973
+(7037.297845900874, 15085.668366389125, 32700.551824661987)
+0.487039559604
+(5302.444019326649, 11659.502621793747, 23939.539184996567)
+0:02:41.962270
+30
+0.559912113165
+(6436.724470253685, 16024.831832391437, 28620.26281555332)
+0:02:41.525816
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n3g3-2>
+Subject: Job 74364: <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py $datestr> in cluster <henry2> Done
+
+Job <#!/bin/csh;#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_out;#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_err;#BSUB -n 4;#BSUB -q mea716;#BSUB -R span[ptile=4];#BSUB -W 12:15; source /usr/local/apps/mpich3/centos7/intelmpi2016.csh; unsetenv MPICH_NO_LOCAL; set datestr="193561200";python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py $datestr> was submitted from host <vclhpc2> by user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:26 2019
+Job was executed on host(s) <4*n3g3-2>, in queue <mea716>, as user <jtradfor> in cluster <henry2> at Sun Dec 22 11:30:30 2019
+</home/jtradfor> was used as the home directory.
+</gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io> was used as the working directory.
+Started at Sun Dec 22 11:30:30 2019
+Terminated at Sun Dec 22 13:36:26 2019
+Results reported at Sun Dec 22 13:36:26 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/csh
+#BSUB -o /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_out
+#BSUB -e /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_err
+#BSUB -n 4
+#BSUB -q mea716
+#BSUB -R span[ptile=4]
+#BSUB -W 12:15
+
+source /usr/local/apps/mpich3/centos7/intelmpi2016.csh
+
+unsetenv MPICH_NO_LOCAL
+
+set datestr="193561200"
+python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean.py $datestr
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1365.56 sec.
+    Max Memory :                                 11558.06 MB
+    Average Memory :                             7047.90 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   128 KB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   7556 sec.
+    Turnaround time :                            7560 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/band_detection_mean_err> for stderr output of this job.
+
