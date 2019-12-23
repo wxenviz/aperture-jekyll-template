@@ -8,5 +8,5 @@
 
 source /gpfs_backup/stormtrack/jtradfor/aliases.csh  
 
-set datestr="193561200"
+set datestr="193570000"
 python /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/arw_interp.py $datestr
