@@ -1,0 +1,2 @@
+*/15 * * * * /usr/bin/csh /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/hrrre/live_detection.csh
+0 10,22 * * * /usr/bin/csh /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/run_all.csh >> /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/dlscripts/href/testing.log 2>&1

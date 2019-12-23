@@ -1,0 +1,180 @@
+---
+title: HRRRE
+---
+
+<script>
+var datei = "193251200";
+var fhourglobal = "00";
+var datestr = "";
+var datestrUTC = "";
+const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const daysOfWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    
+function setdate() {
+    
+  var year = "20" + datei.substr(0,2);
+  var doy = datei.substr(2,3);
+  var init = datei.substr(5,2)
+  var yearobj = new Date(year,0,1);
+  var yeardayobj = new Date(yearobj.setUTCDate(doy));
+  var yeardayhrobj = new Date(yeardayobj.setUTCHours(parseInt(init) + parseInt(fhourglobal)));
+  dowstr = daysOfWeek[yeardayhrobj.getDay()];
+  monthstr = monthNames[yeardayhrobj.getMonth()];
+  daystr = ("00" + (yeardayhrobj.getDate()).toString()).substr(-2,2);
+  hour = yeardayhrobj.getHours();
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  hour = hour % 12;
+  hour = hour ? hour : 12;
+  hrstr = ("00" + hour).substr(-2,2)  + ":00" + ampm;
+  yrstr = yeardayhrobj.getYear() + 1900;
+  datestr =  dowstr + " " + monthstr + " " + daystr + " " + hrstr + " " + yrstr + " Local Time";
+  document.getElementById("timeStamp").innerHTML = datestr;
+}
+
+function setdateUTC() {
+    
+  var year = "20" + datei.substr(0,2);
+  var doy = datei.substr(2,3);
+  var init = datei.substr(5,2)
+  var yearobj = new Date(year,0,1);
+  var yeardayobj = new Date(yearobj.setDate(doy));
+  var yeardayhrobj = new Date(yeardayobj.setUTCHours(parseInt(init) + parseInt(fhourglobal)));
+  dowstr = daysOfWeek[yeardayhrobj.getDay()];
+  monthstr = monthNames[yeardayhrobj.getMonth()];
+  daystr = ("00" + (yeardayhrobj.getDate()).toString()).substr(-2,2);
+  hour = yeardayhrobj.getUTCHours();
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  hour = hour % 12;
+  hour = hour ? hour : 12;
+  hrstr = ("00" + hour).substr(-2,2)  + ":00" + ampm;
+  yrstr = yeardayhrobj.getYear() + 1900;
+  datestrUTC =  dowstr + " " + monthstr + " " + daystr + " " + hrstr + " " + yrstr + " UTC";
+  document.getElementById("timeStamp").innerHTML = datestrUTC;
+}
+
+    
+    
+function datereplace(datei,fhourglobal) {
+    document.getElementById("theImage").src = "/uploads/outimages/hrrre/" + datei + fhourglobal + "00_BR_mean.png";
+    document.getElementById("ImageLink").href = "/uploads/outimages/hrrre/" + datei + fhourglobal + "00_BR_mean.png";
+}
+    
+function pictureChange(datei,fhour,activeField) {
+    document.getElementById('theImage').src="/uploads/outimages/hrrre/" + datei + fhour + "00_" + activeField + ".png";
+    document.getElementById('ImageLink').href="/uploads/outimages/hrrre/" + datei + fhour + "00_" + activeField + ".png";
+    for (var i=0; i < 37; i++) {
+        document.getElementById('button' + ("00" + i).substr(-2,2)).style.backgroundColor = ""
+    }
+    
+    document.getElementById('button' + fhour).style.backgroundColor = "black";
+    fhourglobal = fhour;
+    setdate();
+//     setdateUTC();
+}
+    
+function modelField(datei,fhourglobal,activeField,outerfield) {
+    document.getElementById('theImage').src="/uploads/outimages/hrrre/" + datei + fhourglobal + "00_" + activeField + ".png";
+    document.getElementById('ImageLink').href="/uploads/outimages/hrrre/" + datei + fhourglobal + "00_" + activeField + ".png";
+    var fieldlist = ["BR_mean","BR_postage","BR_ab","R_mean","R_postage","R_ab","R_pb","R_pbab","apcp_mean","apcp_ab","apcp_postage","hpcp_mean","hpcp_ab","hpcp_postage","aweasd_mean","aweasd_ab","hweasd_mean","hweasd_ab","detectedsnowbands","1000Reflectivity", "CReflectivity","apcp","hpcp","aweasd","hweasd","snowbands"];
+    for (var i=0; i < fieldlist.length; i++) {
+        document.getElementById(fieldlist[i]).style.backgroundColor = "";
+    }
+    document.getElementById(activeField).style.backgroundColor = "black";
+    document.getElementById(outerfield).style.backgroundColor = "black";
+    for (var m=0; m < 37; m++) {
+        var fhour = ("00" + m).substr(-2,2);
+        document.getElementById('button' + fhour).setAttribute("onclick","pictureChange(" + datei + ",'" + fhour + "'" + "," + "'" + activeField + "'" + ")");
+    }
+}
+function genHList() {
+    for (var k=0; k < 37; k++) {
+        var fhour = ("00" + k).substr(-2,2);
+        var listnode = document.createElement("LI");
+        var buttonnode = document.createElement("BUTTON");
+        var buttontext = document.createTextNode(("00" + k).substr(-2,2));
+        buttonnode.appendChild(buttontext);
+        buttonnode.setAttribute("id", "button" + fhour);
+        buttonnode.setAttribute("onclick","pictureChange(" + datei + ",'" + fhour + "'" + "," + "'BR_mean'" + ")");
+        listnode.appendChild(buttonnode);
+        document.getElementById("fhourlist").appendChild(listnode);
+    }
+    document.getElementById("button00").style.backgroundColor = "black";
+}
+    
+</script>
+
+<div id="HRRRE_Horizontal_Menu">
+  <p id="timeStamp" align='center'>datestr</p>
+  <ul id="fhourlist">        
+      <script>genHList();</script>
+  </ul>
+</div>
+
+<div class="btn-grp">
+    <div class="dropdown">
+      <button id="1000Reflectivity" style="background-color: black" class="dropbtn">1000m Reflectivity</button>
+      <div class="dropdown-content">
+        <button id="BR_mean" style="background-color: black" onclick="modelField(datei,fhourglobal,'BR_mean','1000Reflectivity')">1000m Reflectivity Mean</button>
+        <button id="BR_postage" onclick="modelField(datei,fhourglobal,'BR_postage','1000Reflectivity')">1000m Reflectivity Postage Stamps</button>
+        <button id="BR_ab" onclick="modelField(datei,fhourglobal,'BR_ab','1000Reflectivity')">1000m Reflectivity Attribute Blocks</button>
+
+      </div>
+    </div>
+   
+    <div class="dropdown">
+      <button id="CReflectivity" class="dropbtn">Composite Reflectivity</button>
+      <div class="dropdown-content">
+        <button id="R_mean" onclick="modelField(datei,fhourglobal,'R_mean','CReflectivity')">Composite Reflectivity Mean</button>
+        <button id="R_postage" onclick="modelField(datei,fhourglobal,'R_postage','CReflectivity')">Composite Reflectivity Postage Stamps</button>
+        <button id="R_ab" onclick="modelField(datei,fhourglobal,'R_ab','CReflectivity')">Composite Reflectivity Attribute Blocks</button>
+        <button id="R_pb" onclick="modelField(datei,fhourglobal,'R_pb','CReflectivity')">Composite Reflectivity 40 dBZ Paintball</button>
+        <button id="R_pbab" onclick="modelField(datei,fhourglobal,'R_pbab','CReflectivity')">Composite Reflectivity 40 dBZ Paintball Attribute Blocks</button>
+      </div>
+    </div>   
+    
+    <div class="dropdown">
+      <button id="apcp" class="dropbtn">Total Accumulated Precipitation</button>
+      <div class="dropdown-content">
+        <button id="apcp_mean" onclick="modelField(datei,fhourglobal,'apcp_mean','apcp')">Total Accumulated Precipitation Mean</button>
+        <button id="apcp_postage" onclick="modelField(datei,fhourglobal,'apcp_postage','apcp')">Total Accumulated Precipitation Postage Stamps</button>
+        <button id="apcp_ab" onclick="modelField(datei,fhourglobal,'apcp_ab','apcp')">Total Accumulated Precipitation Attribute Blocks</button>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <button id="hpcp" class="dropbtn">Hourly Accumulated Precipitation</button>
+      <div class="dropdown-content">
+        <button id="hpcp_mean" onclick="modelField(datei,fhourglobal,'hpcp_mean','hpcp')">Hourly Accumulated Precipitation Mean</button>
+        <button id="hpcp_postage" onclick="modelField(datei,fhourglobal,'hpcp_postage','hpcp')">Hourly Accumulated Precipitation Postage Stamps</button>
+        <button id="hpcp_ab" onclick="modelField(datei,fhourglobal,'hpcp_ab','hpcp')">Hourly Accumulated Precipitation Attribute Blocks</button>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <button id="aweasd" class="dropbtn">Total Accumulated Snowfall</button>
+      <div class="dropdown-content">
+        <button id="aweasd_mean" onclick="modelField(datei,fhourglobal,'aweasd_mean','aweasd')">Total Accumulated Snowfall Mean</button>
+        <button id="aweasd_ab" onclick="modelField(datei,fhourglobal,'aweasd_ab','aweasd')">Total Accumulated Snowfall Attribute Blocks</button>
+      </div>
+    </div>   
+    
+    <div class="dropdown">
+      <button id="hweasd" class="dropbtn">Hourly Accumulated Snowfall</button>
+      <div class="dropdown-content">
+        <button id="hweasd_mean" onclick="modelField(datei,fhourglobal,'hweasd_mean','hweasd')">Hourly Accumulated Snowfall Mean</button>
+        <button id="hweasd_ab" onclick="modelField(datei,fhourglobal,'hweasd_ab','hweasd')">Hourly Accumulated Snowfall Attribute Blocks</button>
+      </div>
+    </div>     
+    
+    <div class="dropdown">
+      <button id="snowbands" class="dropbtn">Snowbands</button>
+      <div class="dropdown-content">
+        <button id="detectedsnowbands" onclick="modelField(datei,fhourglobal,'snowbands','snowbands')">Detected Snowbands</button>
+      </div>
+    </div>   
+</div>
+
+<a id="ImageLink"><img id="theImage" src="" alt="Mean"/></a>
+<script>datereplace(datei,fhourglobal);</script>
+<script>setdate();</script>
+
