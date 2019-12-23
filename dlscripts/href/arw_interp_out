@@ -1,0 +1,78 @@
+0
+1
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-1 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-1 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-1 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-1 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 1 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 1 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 0-1 hrs (min):from 201912230000
+2
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-2 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-2 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 1-2 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 1-2 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 2 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 2 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 1-2 hrs (min):from 201912230000
+3
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-3 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-3 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 2-3 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 2-3 hrs (accum):from 201912230000
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 3 hrs:from 201912230000
+6:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 2-3 hrs (min):from 201912230000
+7:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-3 hrs (accum):from 201912230000
+8:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 3 hrs:from 201912230000
+9:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 0-3 hrs (min):from 201912230000
+4
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-4 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-4 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 3-4 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 3-4 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 4 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 4 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 3-4 hrs (min):from 201912230000
+5
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-5 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-5 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 4-5 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 4-5 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 5 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 5 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 4-5 hrs (min):from 201912230000
+6
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-6 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-6 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 5-6 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 5-6 hrs (accum):from 201912230000
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 6 hrs:from 201912230000
+6:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 5-6 hrs (min):from 201912230000
+7:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 3-6 hrs (accum):from 201912230000
+8:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-6 hrs (accum):from 201912230000
+9:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 6 hrs:from 201912230000
+10:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 3-6 hrs (min):from 201912230000
+7
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-7 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-7 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 6-7 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 6-7 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 7 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 7 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 6-7 hrs (min):from 201912230000
+8
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-8 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-8 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 7-8 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 7-8 hrs (accum):from 201912230000
+5:Maximum/Composite radar reflectivity:dB (instant):lambert:unknown:level 0 considered as a single layer:fcst time 8 hrs:from 201912230000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 8 hrs:from 201912230000
+7:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 7-8 hrs (min):from 201912230000
+9
+1:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0-9 hrs (accum):from 201912230000
+2:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0-9 hrs (accum):from 201912230000
+3:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 8-9 hrs (accum):from 201912230000
+4:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 8-9 hrs (accum):from 201912230000
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 9 hrs:from 201912230000
+6:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 8-9 hrs (min):from 201912230000
+7:Total Precipi
