@@ -40,16 +40,14 @@ sp.call('/usr/bin/rm /gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.gith
 
 os.chdir('/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io')
 
-sp.call('git ls-files --others --exclude-standard > /tmp/my_untracked_files',shell=True)
-sp.call('mv .git/config /tmp/',shell=True)
 sp.call('rm -rf .git',shell=True)
 sp.call('git init',shell=True)
 sp.call('git add .',shell=True)
-sp.call('mv /tmp/config .git/',shell=True)
-sp.call('cat /tmp/my_untracked_files | xargs -0 git rm --cached',shell=True)
 sp.call("git commit -m 'Cleared History'",shell=True)
 sp.call('git push -u --force origin master',shell=True)
+
 time.sleep(60)
+
 get_inv = '/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_inv.pl'
 get_grib = '/gpfs_backup/stormtrack/jtradfor/ensemble_data/wxenviz.github.io/get_grib.pl'
 fields = "':(APCP|REFD|REFC|WEASD|TMIN):'"
